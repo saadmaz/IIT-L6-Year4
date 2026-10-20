@@ -26,14 +26,14 @@ Design, develop and evaluate an NIR spectroscopy and AI framework for rapid, non
 
 | Folder | What goes here |
 |--------|----------------|
-| `01 Project Management` | Master Project Tracker, Risk Register, Weekly Logbook, Supervisor Meeting Log, module templates |
+| `01 Project Management` | Master Project Tracker, Risk Register, Weekly Logbook, Supervisor Meeting Log; `Module Guides & Templates/` (PP guide, templates) |
 | `02 Literature` | `Papers/` (all PDFs) + Literature Review Matrix, Paper Tracking Matrix, Feasibility Matrix (RQ5) |
 | `03 Ethics & Protocol` | Ethics application and approval, supplier consent, risk assessment, oven-drying and scanning SOPs, pilot report |
 | `04 Data` | `raw/` spectrometer exports, `reference/` oven-drying results, `processed/` code outputs, `Sample Log.xlsx` |
-| `05 Code` | `notebooks/` exploration, `src/` pipeline (preprocessing, CARS, models, evaluation), `app/` CLI + Streamlit prototype |
+| `05 Code` | `poc/` proof of concept on the public Tecator NIR dataset, `notebooks/` exploration, `src/` pipeline (preprocessing, CARS, models, evaluation), `app/` CLI + Streamlit prototype |
 | `06 Results` | `Experiment Log.xlsx` + one folder per research question (tables, figures, saved models) |
 | `07 Writing` | `Proposal/` (PP, PPRS), `Thesis/` (chapters + Writing Tracker), `Presentations/` (slides, demos, viva) |
-| `99 Archive` | Superseded versions worth keeping |
+| `99 Archive` | Superseded versions worth keeping (e.g. `Proposal Drafts/`) |
 
 ## Rules that keep the project reproducible
 

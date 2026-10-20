@@ -1,0 +1,111 @@
+{
+ "n": 240,
+ "ncal": 168,
+ "ntest": 72,
+ "yrange": [
+  32.8,
+  76.6
+ ],
+ "pre": [
+  [
+   "Raw",
+   11,
+   2.761,
+   2.276
+  ],
+  [
+   "SNV",
+   10,
+   1.955,
+   1.921
+  ],
+  [
+   "MSC",
+   11,
+   2.283,
+   2.307
+  ],
+  [
+   "SG smoothing",
+   11,
+   2.817,
+   2.488
+  ],
+  [
+   "SG 1st derivative",
+   11,
+   2.781,
+   2.542
+  ],
+  [
+   "SNV + SG 1st derivative",
+   10,
+   1.949,
+   1.921
+  ],
+  [
+   "SG 2nd derivative",
+   5,
+   2.66,
+   2.769
+  ]
+ ],
+ "best_pre": "SNV + SG 1st derivative",
+ "cars": [
+  11,
+  10,
+  1.8,
+  1.959
+ ],
+ "res": [
+  {
+   "model": "Mean-only baseline",
+   "RMSEC": 11.332,
+   "RMSEP": 10.364,
+   "R2p": -0.088,
+   "RPD": 0.97,
+   "bias": -2.951
+  },
+  {
+   "model": "PLSR",
+   "RMSEC": 1.704,
+   "RMSEP": 1.921,
+   "R2p": 0.963,
+   "RPD": 5.21,
+   "bias": -0.263
+  },
+  {
+   "model": "SVR",
+   "RMSEC": 0.685,
+   "RMSEP": 1.044,
+   "R2p": 0.989,
+   "RPD": 9.58,
+   "bias": 0.058
+  },
+  {
+   "model": "Random Forest",
+   "RMSEC": 0.479,
+   "RMSEP": 1.298,
+   "R2p": 0.983,
+   "RPD": 7.71,
+   "bias": 0.043
+  },
+  {
+   "model": "CARS-PLSR",
+   "RMSEC": 1.643,
+   "RMSEP": 1.959,
+   "R2p": 0.961,
+   "RPD": 5.11,
+   "bias": -0.096
+  }
+ ],
+ "wilcoxon_p": 1.202287595953622e-05,
+ "ms_pred": 1.4611874996464598,
+ "best": "SVR",
+ "svr_params": {
+  "svr__C": 1000,
+  "svr__epsilon": 0.2,
+  "svr__gamma": 0.001
+ },
+ "plslv": 10
+}

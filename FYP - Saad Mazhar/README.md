@@ -43,7 +43,7 @@ Design, develop and evaluate an NIR spectroscopy and AI framework for rapid, non
    Spectrum files: `T001_scan1.csv`, `T001_scan2.csv`, `T001_scan3.csv`.
 4. **Every experiment run gets a row in `06 Results/Experiment Log.xlsx`** (ID, date, data split, preprocessing, wavelength selection, model, RMSECV, RMSEP, R2, RPD, bias, notes).
 5. **The locked test set is used once.** Record its sample IDs and hash in the Sample Log when it is created.
-6. **Papers:** name PDFs `Author_Year_ShortTitle.pdf` and tag topics in the Paper Tracking Matrix, not with folders.
+6. **Papers:** name PDFs `NN - Author Year - Title.pdf`, where `NN` is the paper's **Ref No.** in both tracking sheets (e.g. `28 - Lan 2022 - A Rapid Prediction Method of Moisture Content....pdf`). New papers take the next free number; tag topics in the matrices, not with folders.
 7. **Files over 95 MB and videos** stay on PC + Google Drive only (they are kept off GitHub automatically).
 
 ## Adding another material later (coffee, gems, ...)
